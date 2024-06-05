@@ -38,9 +38,9 @@ class TrelloClient
     list_id
   end
 
-  def create_card(list_id, card_name)
+  def create_card(list_id, card_name, album_cover)
     options = {
-      query: @auth_params.merge(name: card_name, idList: list_id)
+      query: @auth_params.merge(name: card_name, idList: list_id, urlSource: album_cover)
     }
 
     response = self.class.post("/cards", options)
