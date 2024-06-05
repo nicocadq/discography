@@ -1,4 +1,4 @@
-# discography
+# Discography
 
 The attached file (`discography.txt`) contains Bob Dylan’s discography. 
 Our goal is to get a Trello board through interacting with the Trello API,  with the albums classified in lists sorted 
